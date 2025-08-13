@@ -25,13 +25,13 @@ DOCKER_IMAGE_BACKEND=
 
 ## Setup
 
-1. Docker build (no registry)
+- Docker build (no registry)
 
-```bash
-docker build -t fastapi-books-backend:latest .
-```
+ ```bash
+ docker build -t fastapi-books-backend:latest .
+ ```
 
-1. Docker compose
+- Docker compose
 
 ```bash
 docker-compose up
